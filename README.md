@@ -33,5 +33,16 @@ github：https://github.com/ScorpioNeal/RulerView
 
 
 
+5、直尺  
+A horizontal scrolling Ruler，it contains two different mode,timeline mode (HH:mm),and normal ruler mode;
+ 一个横向滑动的刻度尺demo，它有两种模式，一种是timeline(时间轴格式，24小时）,一种是ruler（普通的刻度尺）
+    
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_4.png)
+
+github： https://github.com/JoeyZh/Ruler
+
+
+
+
 
 
