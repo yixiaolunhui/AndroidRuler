@@ -71,12 +71,37 @@ github：https://github.com/yjwfn/RulerView
     10、刻度值支持渐现的效果
     11、加入代码控制选中数据部分内容。
 
-![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_6_1_.png)
-![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_6_2_.png)
-![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_6_3_.png)
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_6_1.png)
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_6_2.png)
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_6_3.png)
 
 github：https://github.com/Sanjay-F/RulerView
 
+
+
+8、直尺  
+
+
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_7.png)
+
+github：https://github.com/pruas/Ruler
+
+
+
+9、直尺  
+
+
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_8.png)
+
+github：https://github.com/guanguoxiang/Ruler
+
+
+10、直尺  
+
+一个项目上用的调节比例的尺子，支持无游标，一个游标和两个游标 
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_9.png)
+
+github：https://github.com/leon-ch/RulerAdjust
 
 
 
