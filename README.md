@@ -91,7 +91,7 @@ github：https://github.com/pruas/Ruler
 9、直尺  
 
 
-![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_8.png)
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_8.jpg)
 
 github：https://github.com/guanguoxiang/Ruler
 
