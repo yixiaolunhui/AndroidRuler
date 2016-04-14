@@ -57,6 +57,30 @@ github： https://github.com/JoeyZh/Ruler
 github：https://github.com/yjwfn/RulerView
 
 
+7、直尺  
+
+    1、支持定义字体的大小和颜色和是否显示刻度值
+    2、支持定义各个刻度的颜色和大小，目前有大,中,小三者，如图片所示，有最大的是黑色，中等的为绿色，最小的是蓝色。同时刻度间隔和刻度的大小可以调节。
+    3、支持自定义中间的指标器。
+    4、可以有上和下，两种对齐的方式。
+    5、支持指定默认值。
+    6、支持设置最大和最小值。
+    7、两种刻度格式SCALE和HALF，前者为有10格刻度，后者为只有0.5一格小的刻度。参考图片
+    8、刻度尺的渐显效果
+    9、支持显示自定义的数据！
+    10、刻度值支持渐现的效果
+    11、加入代码控制选中数据部分内容。
+
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_6_1_.png)
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_6_2_.png)
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_6_3_.png)
+
+github：https://github.com/Sanjay-F/RulerView
+
+
+
+
+
 
 
 
