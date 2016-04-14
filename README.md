@@ -43,6 +43,22 @@ github： https://github.com/JoeyZh/Ruler
 
 
 
+6、直尺  
+类似尺子的控件，可以根据设定的值通过手势或手动设置来选择一个值。
+支持手势: springBack、fling
+支持OverScroll: OverScroller
+自动对齐中心: setAutoAlign(TRUE）
+对齐顶部或底部: setGravity使用Gravity.Top或Gravity.Bottom
+平滑滚动： smoothScrollToPosition、smoothScrollToValue
+动态获取值: 使用OnScaleListener监听值的变化
+    
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_5.gif)
+
+github：https://github.com/yjwfn/RulerView
+
+
+
+
 
 
 
