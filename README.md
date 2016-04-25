@@ -105,7 +105,7 @@ github：https://github.com/leon-ch/RulerAdjust
 
 
 
-10、直尺  
+11、直尺  
 
 Selector with wheel view, applicable to selecting money or other short length values.
 
@@ -113,6 +113,14 @@ Selector with wheel view, applicable to selecting money or other short length va
 
 
 github： https://github.com/lantouzi/WheelView-Android
+
+
+
+12：Android开发之时间刻度盘
+
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_11.gif)
+
+http://www.apkbus.com/forum.php?mod=viewthread&tid=255830&extra=page%3D1%26filter%3Dsortid%26sortid%3D12
 
 陆续更新！！！！！！敬请期待
 
