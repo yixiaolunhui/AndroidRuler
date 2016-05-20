@@ -122,6 +122,16 @@ github： https://github.com/lantouzi/WheelView-Android
 
 http://www.apkbus.com/forum.php?mod=viewthread&tid=255830&extra=page%3D1%26filter%3Dsortid%26sortid%3D12
 
+
+
+
+13:RecyclerView实现的刻度尺
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_12.gif)
+
+
+github： https://github.com/pengan1987/Ruler
+
+
 陆续更新！！！！！！敬请期待
 
 
