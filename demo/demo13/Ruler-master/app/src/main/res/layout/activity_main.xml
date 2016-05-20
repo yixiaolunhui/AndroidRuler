@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="touchPanelModel"
+            type="com.abcmeasure.andyzhou.ruler.TouchPanelViewModel" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="0dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.abcmeasure.andyzhou.ruler.MainActivity">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_ruler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal" />
+
+        <RelativeLayout
+            android:id="@+id/touch_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:onTouchListener="@{touchPanelModel.touchListener}">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/instruction"
+                android:textSize="20sp"
+                android:visibility="@{touchPanelModel.touchMode?View.GONE:View.VISIBLE}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@{touchPanelModel.distanceInchText}"
+                android:textSize="40sp"
+                android:visibility="@{touchPanelModel.touchMode?View.VISIBLE:View.GONE}" />
+
+            <View
+                android:id="@+id/left_cursor"
+                dynamic_marginLeft="@{touchPanelModel.leftCursorMargin}"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:visibility="@{touchPanelModel.touchMode?View.VISIBLE:View.GONE}" />
+
+            <View
+                android:id="@+id/right_cursor"
+                dynamic_marginLeft="@{touchPanelModel.rightCursorMargin}"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:visibility="@{touchPanelModel.touchMode?View.VISIBLE:View.GONE}" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

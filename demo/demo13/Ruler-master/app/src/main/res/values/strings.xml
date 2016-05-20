@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ruler</string>
+    <string name="instruction">Rotate to use different edges\nTouch screen to use cursors</string>
+    <string name="in_to_cm">in/cm</string>
+</resources>

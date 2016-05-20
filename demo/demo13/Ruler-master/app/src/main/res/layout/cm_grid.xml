@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="gridModel"
+            type="com.abcmeasure.andyzhou.ruler.RulerGridViewModel" />
+    </data>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        dynamic_width="@{gridModel.dotsPerUnit}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+        <TextView
+            android:id="@+id/txt_ruler_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{gridModel.rulerNumber}" />
+        <LinearLayout
+            android:id="@+id/ruler_grids"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@id/txt_ruler_number"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/grid_zero"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_red" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_black" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_black" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_black" />
+          
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_black" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_black" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_black" />
+           
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_black" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_black" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ruler_line_black" />
+         
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

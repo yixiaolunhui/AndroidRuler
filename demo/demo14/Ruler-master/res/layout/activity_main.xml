@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.samuelzhan.ruler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00aced">
+
+    <RelativeLayout
+        android:id="@+id/ruler_layout"
+        android:layout_width="70dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+	    android:background="@drawable/shape_ruler">
+        
+	    <com.samuelzhan.ruler.Ruler
+	        android:id="@+id/ruler_height"
+	        android:layout_width="60dp"
+	        android:layout_height="280dp"
+	        android:layout_centerInParent="true"
+	        android:background="#ffffff"
+	        custom:orientation="vertical"
+	        custom:fromValue="0"
+	        custom:toValue="100"
+	        custom:intervalsBetweenValues="10"
+	        custom:valuesInterval="10"
+	        custom:interval="5dp"
+	        custom:linesColor="#33000000"
+	        custom:linesWidth="4px"
+	        custom:valuesTextSize="12sp"/>
+       
+   	</RelativeLayout>
+    
+   <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/ruler_layout"
+        android:layout_centerHorizontal="true"
+	    android:background="@drawable/shape_ruler">
+        
+	    <com.samuelzhan.ruler.Rulerde
+	        android:id="@+id/ruler_weight"
+	        android:layout_width="240dp"
+	        android:layout_height="50dp"
+	        android:layout_centerInParent="true"
+	        android:background="#ffffff"
+	        custom:fromValue="0"
+	        custom:toValue="150"
+	        custom:intervalsBetweenValues="10"
+	        custom:valuesInterval="10"
+	        custom:interval="5dp"
+	        custom:linesColor="#33000000"
+	        custom:linesWidth="4px"
+	        custom:valuesTextSize="12sp"/>
+        
+    </RelativeLayout>     
+
+</RelativeLayout>

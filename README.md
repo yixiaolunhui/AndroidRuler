@@ -132,6 +132,20 @@ http://www.apkbus.com/forum.php?mod=viewthread&tid=255830&extra=page%3D1%26filte
 github： https://github.com/pengan1987/Ruler
 
 
+
+14:刻度尺
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_14.png)
+
+
+github： https://github.com/SamuelZhan/Ruler
+
+
+
+15:刻度尺
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_15.gif)
+
+
+github： https://github.com/jaydon/ruler
 陆续更新！！！！！！敬请期待
 
 
