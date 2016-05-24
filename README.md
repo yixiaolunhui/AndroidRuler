@@ -146,6 +146,13 @@ github： https://github.com/SamuelZhan/Ruler
 
 
 github： https://github.com/jaydon/ruler
+
+
+16:刻度尺
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_16.gif)
+
+
+github： https://github.com/andrewjsauer/Ruler
 陆续更新！！！！！！敬请期待
 
 
