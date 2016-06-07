@@ -1,0 +1,9 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">RulerAdjust</string>
+    <string name="Unit_gram">克</string>
+    <string name="Feed_times_everyday">第<xliff:g id="prefix">%s</xliff:g>个</string>
+    <string name="num_one_hint">第1个数：</string>
+    <string name="num_two_hint">第2个数：</string>
+    <string name="num_three_hint">第3个数：</string>
+    <string name="adjust">调整</string>
+</resources>

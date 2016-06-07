@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="demo_data">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>11</item>
+        <item>13</item>
+        <item>19</item>
+        <item>30</item>
+        <item>46</item>
+        <item>90</item>
+        <item>104</item>
+        <item>247</item>
+        <item>422</item>
+    </string-array>
+
+</resources>

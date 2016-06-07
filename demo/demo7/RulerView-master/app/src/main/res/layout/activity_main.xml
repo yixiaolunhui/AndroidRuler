@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.xk.sanjay.rulerview.MainActivity">
+
+
+    <TextView
+        android:id="@+id/curValue_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="20"
+        android:textColor="#ff0989"
+        android:textSize="20sp"/>
+
+    <com.xk.sanjay.rulberview.RulerWheel
+        android:id="@+id/ruler_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:MaxBarSize="2dp"
+        app:MidBarSize="1.5dp"
+        app:MinBarSize="1dp"
+        app:lineColorMax="#797979"
+        app:lineColorMid="#797979"
+        app:lineColorMin="#797979"
+        app:line_divider="10dp"
+        app:mask_bg="@mipmap/icon_arrow"
+        app:max_value="100"
+        app:min_value="0"
+        app:mode="SCALE"
+        app:scaleWidth="1dp"
+        app:showGradient="true"
+        app:showScaleValue="true"
+        app:text_Size="30"
+        app:text_color="#e21d6f"/>
+
+    <TextView
+        android:id="@+id/curValue2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="20"
+        android:textColor="#ff0989"
+        android:textSize="20sp"/>
+
+    <com.xk.sanjay.rulberview.RulerWheel
+        android:id="@+id/ruler_view2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+
+        app:MaxBarSize="2dp"
+        app:MidBarSize="1.5dp"
+        app:MinBarSize="1dp"
+
+        app:alignMode="DOWN"
+        app:dataMode="DATA"
+        app:dataSource="@array/demo_data"
+        app:scaleValueGradient="true"
+
+        app:lineColorMax="#797979"
+        app:lineColorMid="#797979"
+        app:lineColorMin="#797979"
+        app:line_divider="40dp"
+        app:mask_bg="@mipmap/icon_arrow"
+        app:max_value="100"
+        app:min_value="0"
+        app:mode="HALF"
+        app:scaleWidth="1dp"
+        app:showGradient="true"
+        app:showScaleValue="true"
+        app:text_Size="30"
+        app:text_color="#e21d6f"/>
+
+</LinearLayout>

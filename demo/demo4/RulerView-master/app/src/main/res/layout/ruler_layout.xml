@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TextView 
+        android:id="@+id/birth_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="出生日期"
+        android:gravity="center"/>
+    
+    <com.scorpioneal.rulerview.RulerView
+        android:id="@+id/birthRulerView"
+        android:layout_width="match_parent"
+        android:layout_height="76.7dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" 
+        android:background="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/height_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="身高"
+        android:gravity="center"/>
+
+    <com.scorpioneal.rulerview.RulerView
+        android:id="@+id/heightRulerView"
+        android:layout_width="match_parent"
+        android:layout_height="76.7dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/weight_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="体重"
+        android:gravity="center"/>
+
+    <com.scorpioneal.rulerview.RulerView
+        android:id="@+id/weightRulerView"
+        android:layout_width="match_parent"
+        android:layout_height="76.7dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"/>
+
+</LinearLayout>

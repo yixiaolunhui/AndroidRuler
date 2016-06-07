@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:seek="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <com.seek.ruler.SimpleRulerView
+    android:id="@+id/simple_ruler"
+    seek:minValue ="1000"
+    seek:maxValue ="10000"
+    seek:intervalValue="100"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    />
+    <TextView
+        android:id="@+id/text1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content" />
+    <com.seek.ruler.SimpleRulerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/height_ruler"
+        seek:minValue ="1.0"
+        seek:maxValue ="2.0"
+        seek:intervalValue="0.01"
+        seek:retainLength ="2"
+        seek:rulerColor="@color/green"
+        seek:textColor ="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

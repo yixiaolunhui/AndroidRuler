@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义滚动尺-->
+    <declare-styleable name="RulerWheel">
+        <!--大号刻度线颜色-->
+        <attr name="lineColorMax" format="color"/>
+        <!--中号刻度线颜色-->
+        <attr name="lineColorMid" format="color"/>
+        <!--小号刻度线颜色-->
+        <attr name="lineColorMin" format="color"/>
+
+        <!--大号刻度线的大小,优先级高于scaleWidth-->
+        <attr name="MaxBarSize" format="dimension"/>
+        <!--中号刻度线的大小,优先级高于scaleWidth-->
+        <attr name="MidBarSize" format="dimension"/>
+        <!--大号刻度线的大小,优先级高于scaleWidth-->
+        <attr name="MinBarSize" format="dimension"/>
+
+
+        <!--是否显示刻度值-->
+        <attr name="showScaleValue" format="boolean"/>
+        <!--是否渐显显示刻度尺-->
+        <attr name="showGradient" format="boolean"/>
+        <!--刻度宽度,所有的都一样大小-->
+        <attr name="scaleWidth" format="dimension"/>
+        <!--刻度左右间距-->
+        <attr name="line_divider" format="dimension"/>
+        <attr name="text_Size" format="integer"/>
+        <attr name="text_color" format="color"/>
+        <attr name="def_value" format="integer"/>
+        <attr name="max_value" format="integer"/>
+        <attr name="min_value" format="integer"/>
+        <attr name="mask_bg" format="reference"/>
+        <!--刻度值渐现-->
+        <attr name="scaleValueGradient" format="boolean"/>
+
+
+        <attr name="mode">
+            <flag name="SCALE" value="0"/>
+            <flag name="HALF" value="1"/>
+        </attr>
+
+        <attr name="dataMode">
+            <flag name="AUTO" value="0" />
+            <flag name="DATA" value="1"/>
+        </attr>
+
+        <attr name="dataSource"  format="reference"/>
+
+
+        <attr name="alignMode">
+            <flag name="UP" value="0"/>
+            <flag name="DOWN" value="1"/>
+        </attr>
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- simpleRulerView-->
+    <declare-styleable name="simpleRulerView">
+        <attr name="highlightColor" format="color|reference" />
+        <attr name="rulerColor" format="color|reference" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="intervalDistance" format="dimension" />
+        <attr name="intervalValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="minValue" format="float" />
+        <attr name="textSize" format="dimension" />
+        <attr name="rulerLineWidth" format="dimension" />
+        <attr name="retainLength" format="integer"/>
+    </declare-styleable>
+
+</resources>

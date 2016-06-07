@@ -153,6 +153,13 @@ github： https://github.com/jaydon/ruler
 
 
 github： https://github.com/andrewjsauer/Ruler
+
+
+17:水平刻度尺
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/ruler_17.gif)
+
+github：https://github.com/shchurov/HorizontalWheelView
+
 陆续更新！！！！！！敬请期待
 
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.ggx.ruler_lib.CustomeScrollView
+        android:id="@+id/ruler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ruler_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </com.ggx.ruler_lib.CustomeScrollView>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:contentDescription="@null"
+        android:background="@null"
+        android:src="@drawable/rulerscale_vertical_selected"
+        android:layout_centerVertical="true"/>
+</merge>

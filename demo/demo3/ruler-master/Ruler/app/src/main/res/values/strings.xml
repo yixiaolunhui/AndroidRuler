@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ruler</string>
+    <string name="action_settings">Change Unit</string>
+    <string name="ruler_view_default_text">Measure with 2 fingers :)</string>
+</resources>

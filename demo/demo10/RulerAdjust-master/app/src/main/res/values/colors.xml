@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray_bg">#ffe6e9ed</color>
+    <color name="feed_plan_time_color">#83898a</color>
+    <color name="white">#ffffffff</color>
+    <color name="feed_plan_btn_color">#f4b700</color>
+</resources>

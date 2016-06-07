@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lw.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        >
+        <com.lw.widget.RulerView
+            android:id="@+id/ruler_view"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="top"
+            app:begin="0"
+            app:end="100"
+            app:textColor="@android:color/holo_blue_dark"
+            app:selectedColor="@android:color/holo_blue_bright"
+            app:indicateColor="@android:color/holo_blue_dark"
+            app:indicatePadding="10dp"
+            app:textSize="18sp"
+            app:indicateWidth="5dp"
+            android:layout_alignParentTop="true"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="10dp"
+            android:background="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ></View>
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/cb_with_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With text"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_auto_align"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Align automatically"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicate Width: "
+        />
+
+    <EditText
+        android:id="@+id/et_indicate_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicate padding: "
+        />
+
+    <EditText
+        android:id="@+id/et_indicate_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="position:"
+            />
+        <EditText
+            android:id="@+id/et_pos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="position"
+            android:inputType="number"
+            android:text="0"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="value:"
+            />
+        <EditText
+            android:id="@+id/et_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="value"
+            />
+
+        <Button
+            android:id="@+id/btn_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOP"
+            />
+
+        <Button
+            android:id="@+id/btn_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOTTOM"
+            />
+    </LinearLayout>
+</LinearLayout>

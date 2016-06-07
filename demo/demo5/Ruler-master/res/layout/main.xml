@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ruler="http://schemas.android.com/apk/res/com.joey.ruler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <com.joey.ruler.library.Ruler
+        android:id="@+id/ruler"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_text"
+        android:background="#ffaaaaaa"
+        android:orientation="horizontal"
+        ruler:max_unit_count="24"
+        ruler:min_unit_size="2dp"
+        ruler:per_unit_count="10"
+        ruler:unit_visible="max"
+        ruler:ruler_mode="timeline"
+        ruler:mark_color="@android:color/white"
+        ruler:unit_bmp_height="20dp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ruler"
+        android:hint="00:00" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ruler"
+        android:text="跳转" />
+
+    <TextView
+        android:id="@+id/result_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text"
+        android:text="@string/hello_world" />
+
+    <com.joey.ruler.library.Ruler
+        android:id="@+id/ruler2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_text2"
+        android:background="#ffaaaaaa"
+        android:orientation="horizontal"
+        ruler:max_unit_count="10"
+        ruler:min_unit_size="10dp"
+        ruler:per_unit_count="10"
+        ruler:min_unit="10.0"
+        ruler:ruler_mode="ruler"
+        ruler:unit_bmp_height="40dp" />
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ruler2"
+        android:hint="0.000" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ruler2"
+        android:text="跳转" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin-features
+    Bundle-Activator="com.wawi.ruler.bundle.SimpleBundle"
+    Bundle-Activity="com.wawi.ruler.MainActivity"
+    Bundle-Name="ruler"
+    Bundle-SymbolicName="com.wawi.ruler"
+    Bundle-Version="1.0.0"
+    date="2014.12.17"
+    provider-name="ruler"
+    provider-url="" >
+
+</plugin-features>

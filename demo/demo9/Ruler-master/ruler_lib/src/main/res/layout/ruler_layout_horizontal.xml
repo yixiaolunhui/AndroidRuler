@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="2dp"
+        android:layout_height="80dp"
+        android:contentDescription="@null"
+        android:background="@null"
+        android:src="@drawable/rulerscale_horizontal_selected"
+        android:layout_centerHorizontal="true"/>
+    <com.ggx.ruler_lib.CustomeHorizontalScrollView
+        android:id="@+id/ruler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ruler_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </com.ggx.ruler_lib.CustomeHorizontalScrollView>
+
+
+</merge>
