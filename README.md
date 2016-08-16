@@ -160,6 +160,11 @@ github： https://github.com/andrewjsauer/Ruler
 
 github：https://github.com/shchurov/HorizontalWheelView
 
+18:一个身高体重滑动选择器
+![image](https://github.com/lovely3x/WeightAndHeightMeasurer/blob/master/screenshots/screenshoot.png)
+
+github:https://github.com/lovely3x/WeightAndHeightMeasurer
+
 陆续更新！！！！！！敬请期待
 
 
