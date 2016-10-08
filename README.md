@@ -179,6 +179,12 @@ github:https://github.com/Kongdy/NoEndlessRuler
 ![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_20.gif?raw=true}
 
 github:https://github.com/RubinChen/RulerView
+
+
+21、水平滑动的尺子
+
+![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_21.gif?raw=true}
+github:https://github.com/xuqian1994/HorizontalRuler
 陆续更新！！！！！！敬请期待
 
 

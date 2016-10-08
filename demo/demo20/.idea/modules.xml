@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ruler/Ruler.iml" filepath="$PROJECT_DIR$/Ruler/Ruler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RulerView.iml" filepath="$PROJECT_DIR$/RulerView.iml" />
+    </modules>
+  </component>
+</project>
