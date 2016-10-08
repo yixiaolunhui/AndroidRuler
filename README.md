@@ -192,6 +192,11 @@ github:https://github.com/xuqian1994/HorizontalRuler
 ![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_22.gif?raw=true}
 github:https://github.com/ZBJDSBJ/ScaleRuler
 
+
+23、Android 支持大尺度的刻度尺控件
+![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_23.gif?raw=true}
+github:https://github.com/Jiezhi/ruler
+
 陆续更新！！！！！！敬请期待
 
 
