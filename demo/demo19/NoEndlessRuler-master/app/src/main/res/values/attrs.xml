@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 尺子 -->
+    <declare-styleable name="NoEndlessRuler">
+        <attr name="ner_orientation" format="enum">
+            <!-- 正常 -->
+            <enum name="vertical" value="1"/>
+            <!-- 圆形点 -->
+            <enum name="horizontal" value="2"/>
+        </attr>
+        <attr name="ner_point_style" format="reference"/>
+    </declare-styleable>
+
+</resources>
