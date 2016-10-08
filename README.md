@@ -170,6 +170,15 @@ github:https://github.com/lovely3x/WeightAndHeightMeasurer
 ![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/no_endless_ruler.gif?raw=true)
 github:https://github.com/Kongdy/NoEndlessRuler
 
+
+
+20 1，支持水平竖直;
+   2，支持设置尺子刻度，数值大小与颜色;
+   3，支持刻度间距;
+   4，支持是否显示特殊刻度的特殊颜色与尺寸（整5格，整10格）;
+![image]{}
+
+github:https://github.com/RubinChen/RulerView
 陆续更新！！！！！！敬请期待
 
 
