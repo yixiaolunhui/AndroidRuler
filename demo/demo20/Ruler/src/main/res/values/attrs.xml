@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- simpleRulerView-->
+    <declare-styleable name="customRulerView">
+
+        <attr name="rulerOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <attr name="rulerHighlightColor" format="color|reference" />
+        <attr name="rulerColor" format="color|reference" />
+        <attr name="rulerTextColor" format="color|reference" />
+
+        <attr name="rulerIntervalDistance" format="dimension" />
+        <attr name="rulerLineWidth" format="dimension" />
+        <attr name="rulerLineHeight" format="dimension" />
+        <attr name="rulerTextSize" format="dimension" />
+        <attr name="rulerTextBaseLineDistance" format="dimension" />
+
+        <attr name="rulerIsDivideByTen" format="boolean" />
+        <attr name="rulerDivideByTenHeight" format="dimension" />
+        <attr name="rulerDivideByTenWidth" format="dimension" />
+
+        <attr name="rulerIsDivideByFive" format="boolean" />
+        <attr name="rulerDivideByFiveHeight" format="dimension" />
+        <attr name="rulerDivideByFiveWidth" format="dimension" />
+
+
+        <attr name="rulerIntervalValue" format="float" />
+        <attr name="rulerMaxValue" format="float" />
+        <attr name="rulerMinValue" format="float" />
+
+        <attr name="rulerRetainLength" format="integer" />
+    </declare-styleable>
+
+</resources>

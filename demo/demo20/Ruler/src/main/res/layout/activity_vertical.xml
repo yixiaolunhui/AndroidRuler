@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="Your height is 0.0 meters"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="5dp"
+        android:background="#0000ff" />
+
+    <com.rubin.ruler.RulerView
+        android:id="@+id/height_ruler"
+        android:layout_width="100dp"
+        android:layout_height="500dp"
+        android:background="@android:color/darker_gray"
+        app:rulerDivideByFiveHeight="20dp"
+        app:rulerDivideByFiveWidth="2dp"
+        app:rulerDivideByTenHeight="25dp"
+        app:rulerDivideByTenWidth="3dp"
+        app:rulerHighlightColor="#f00"
+        app:rulerIntervalDistance="5dp"
+        app:rulerIntervalValue="0.1"
+        app:rulerIsDivideByFive="true"
+        app:rulerIsDivideByTen="true"
+        app:rulerMaxValue="150"
+        app:rulerMinValue="40"
+        app:rulerOrientation="vertical"
+        app:rulerRetainLength="1"
+        app:rulerColor="@color/green"
+        app:rulerLineHeight="15dp"
+        app:rulerLineWidth="1dp"
+        app:rulerTextBaseLineDistance="3dp"
+        app:rulerTextColor="@android:color/black"
+        app:rulerTextSize="13sp" />
+
+
+</LinearLayout>
