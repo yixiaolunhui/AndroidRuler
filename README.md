@@ -167,7 +167,7 @@ github:https://github.com/lovely3x/WeightAndHeightMeasurer
 
 
 19：可无限滑动的尺子控件,延伸多种样式
-
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/no_endless_ruler.gif?raw=true)
 github:https://github.com/Kongdy/NoEndlessRuler
 
 陆续更新！！！！！！敬请期待
