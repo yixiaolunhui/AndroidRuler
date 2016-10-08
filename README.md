@@ -185,6 +185,13 @@ github:https://github.com/RubinChen/RulerView
 
 ![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_21.gif?raw=true}
 github:https://github.com/xuqian1994/HorizontalRuler
+
+
+
+22、身高、体重横向滚动刻度尺选择器
+![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_22.gif?raw=true}
+github:https://github.com/ZBJDSBJ/ScaleRuler
+
 陆续更新！！！！！！敬请期待
 
 

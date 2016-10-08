@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.lost.zou.scaleruler.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="身高体重刻度尺选择器"
+        android:textColor="#333333"
+        android:textSize="22sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.lost.zou.scaleruler.view.ScaleRulerView
+            android:id="@+id/scaleWheelView_height"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/white"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" />
+
+        <com.lost.zou.scaleruler.view.SlantedTextView
+            android:id="@+id/slant_one"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:slantedBackgroundColor="@color/colorPrimary"
+            app:slantedLength="28dp"
+            app:slantedMode="left_triangle"
+            app:slantedText="身高"
+            app:slantedTextColor="#ffffff"
+            app:slantedTextSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/scaleWheelView_height"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:id="@+id/tv_user_height_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="bottom"
+                android:text="170"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_user_height_value"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@id/tv_user_height_value"
+                android:text="cm"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.lost.zou.scaleruler.view.ScaleRulerView
+            android:id="@+id/scaleWheelView_weight"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/white"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" />
+
+        <com.lost.zou.scaleruler.view.SlantedTextView
+            android:id="@+id/slant_two"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:slantedBackgroundColor="@color/colorPrimary"
+            app:slantedLength="28dp"
+            app:slantedMode="left"
+            app:slantedText="体重"
+            app:slantedTextColor="#ffffff"
+            app:slantedTextSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/scaleWheelView_weight"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:id="@+id/tv_user_weight_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="65"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_user_weight_value"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@id/tv_user_weight_value"
+                android:text="kg"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_marginTop="15dp">
+
+        <com.lost.zou.scaleruler.view.DecimalScaleRulerView
+            android:id="@+id/ruler_weight"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.lost.zou.scaleruler.view.SlantedTextView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:slantedBackgroundColor="@color/colorPrimary"
+            app:slantedLength="28dp"
+            app:slantedMode="left"
+            app:slantedText="体重"
+            app:slantedTextColor="#ffffff"
+            app:slantedTextSize="14sp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="71dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/weight_set_target_arrow" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_user_weight_value_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="65kg"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_choose_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="选择结果"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+</LinearLayout>
