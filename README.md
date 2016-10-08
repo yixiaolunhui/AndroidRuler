@@ -165,6 +165,11 @@ github：https://github.com/shchurov/HorizontalWheelView
 
 github:https://github.com/lovely3x/WeightAndHeightMeasurer
 
+
+19：可无限滑动的尺子控件,延伸多种样式
+
+github:https://github.com/Kongdy/NoEndlessRuler
+
 陆续更新！！！！！！敬请期待
 
 
