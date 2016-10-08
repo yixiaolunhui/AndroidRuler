@@ -176,25 +176,25 @@ github:https://github.com/Kongdy/NoEndlessRuler
    2，支持设置尺子刻度，数值大小与颜色;
    3，支持刻度间距;
    4，支持是否显示特殊刻度的特殊颜色与尺寸（整5格，整10格）;
-![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_20.gif?raw=true}
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_20.gif?raw=true)
 
 github:https://github.com/RubinChen/RulerView
 
 
 21、水平滑动的尺子
 
-![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_21.gif?raw=true}
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_21.gif?raw=true)
 github:https://github.com/xuqian1994/HorizontalRuler
 
 
 
 22、身高、体重横向滚动刻度尺选择器
-![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_22.gif?raw=true}
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_22.gif?raw=true)
 github:https://github.com/ZBJDSBJ/ScaleRuler
 
 
 23、Android 支持大尺度的刻度尺控件
-![image]{https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_23.gif?raw=true}
+![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_23.gif?raw=true)
 github:https://github.com/Jiezhi/ruler
 
 陆续更新！！！！！！敬请期待
