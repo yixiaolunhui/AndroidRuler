@@ -197,7 +197,9 @@ github:https://github.com/ZBJDSBJ/ScaleRuler
 ![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/demo_23.gif?raw=true)
 github:https://github.com/Jiezhi/ruler
 
-
+24、自定义Switch 和 Ruler控件
+![image](https://github.com/zhangxuyang321/XyzInfo/raw/master/ui/2.gif)
+github：https://github.com/zhangxuyang321/XyzInfo
 陆续更新！！！！！！敬请期待
 
 
