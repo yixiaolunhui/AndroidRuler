@@ -200,6 +200,24 @@ github:https://github.com/Jiezhi/ruler
 24、自定义Switch 和 Ruler控件
 ![image](https://github.com/zhangxuyang321/XyzInfo/raw/master/ui/2.gif)
 github：https://github.com/zhangxuyang321/XyzInfo
+
+
+25、自定义View-标尺滚动选择控件
+![image](https://github.com/qindachang/RulerView/raw/master/imgs/Screenshot_1479577403.png)
+github：https://github.com/qindachang/RulerView
+
+26、ruler view, measure the the points distance
+![image](https://github.com/onlynight/RulerSurfaceView/raw/master/images/rulerview.gif)
+github：https://github.com/onlynight/RulerSurfaceView
+
+27、android ruler view
+![image](https://github.com/onlynight/RulerView/raw/master/images/design_sketch.jpg)
+github:https://github.com/onlynight/RulerView
+
+28、自定义尺子
+![image](https://github.com/RubinChen/RulerView/raw/master/images/ruler1.jpg)
+![image](https://github.com/RubinChen/RulerView/raw/master/images/ruler2.jpg)
+github:https://github.com/RubinChen/RulerView
 陆续更新！！！！！！敬请期待
 
 
