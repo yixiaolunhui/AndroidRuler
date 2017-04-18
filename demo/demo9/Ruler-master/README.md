@@ -1,6 +1,6 @@
 # Ruler
 这是一个Android自定义控件------尺子
-###开发工具
+### 开发工具
 工具：Android Studio
 ### 使用方法
 使用git clone 的方式将本项目拉到本地磁盘上，之后再android studio中将项目中的ruler_lib模块导入到你的项目中
