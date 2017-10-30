@@ -218,6 +218,10 @@ github:https://github.com/onlynight/RulerView
 ![image](https://github.com/RubinChen/RulerView/raw/master/images/ruler1.jpg)
 ![image](https://github.com/RubinChen/RulerView/raw/master/images/ruler2.jpg)
 github:https://github.com/RubinChen/RulerView
+
+29、一个可以滑动选择的尺子view，可以选择体重身高等信息，通过刷新当前屏幕模拟滑动效果，达到暂用内存最小的目的。
+![image](https://github.com/superSp/RulerView/raw/master/RulerViewGif.gif)
+github:https://github.com/superSp/RulerView
 陆续更新！！！！！！敬请期待
 
 
