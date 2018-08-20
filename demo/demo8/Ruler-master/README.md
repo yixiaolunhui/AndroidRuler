@@ -1,7 +1,7 @@
 # Ruler
 a simple RulerView for android
 
-#How to use
+# How to use
 created by XML like this:
 ```JAVA
 <com.seek.ruler.SimpleRulerView

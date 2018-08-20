@@ -1,4 +1,4 @@
-##android自定义尺子收集demo
+## android自定义尺子收集demo
 
 1、直尺（测量距离）
 ![image](https://github.com/dalong982242260/AndroidRuler/blob/master/img/zhichi_1.png)
